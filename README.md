@@ -14,6 +14,12 @@ API hh.ru для ИИ-ассистентов: вакансии, отклики �
 [![Install in VS Code](https://img.shields.io/badge/VS_Code-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D1%82%D1%8C-0098FF?logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect/mcp/install?name=hh&config=%7B%22command%22%3A%20%22uvx%22%2C%20%22args%22%3A%20%5B%22hh-mcp-ru%22%5D%2C%20%22env%22%3A%20%7B%22HH_TOKEN%22%3A%20%22%24%7Binput%3Ahh_token%7D%22%2C%20%22HH_APP_NAME%22%3A%20%22%24%7Binput%3Ahh_app_name%7D%22%7D%7D&inputs=%5B%7B%22id%22%3A%20%22hh_token%22%2C%20%22type%22%3A%20%22promptString%22%2C%20%22description%22%3A%20%22%D0%A2%D0%BE%D0%BA%D0%B5%D0%BD%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%20hh.ru%20%28dev.hh.ru%20%E2%86%92%20%D0%9C%D0%BE%D0%B8%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%29.%22%2C%20%22password%22%3A%20true%7D%2C%20%7B%22id%22%3A%20%22hh_app_name%22%2C%20%22type%22%3A%20%22promptString%22%2C%20%22description%22%3A%20%22%D0%98%D0%BC%D1%8F%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B8%20%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%BD%D1%8B%D0%B9%20email%20%D0%B4%D0%BB%D1%8F%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0%20HH-User-Agent%3A%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B5%D0%B3%D0%BE%20hh%20%D0%BE%D1%82%D0%BA%D0%BB%D0%BE%D0%BD%D1%8F%D0%B5%D1%82%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D1%8B.%22%7D%5D)
 [![Install in Cursor](https://img.shields.io/badge/Cursor-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D1%82%D1%8C-000000?logo=cursor&logoColor=white)](https://cursor.com/en/install-mcp?name=hh&config=eyJjb21tYW5kIjogInV2eCIsICJhcmdzIjogWyJoaC1tY3AtcnUiXSwgImVudiI6IHsiSEhfVE9LRU4iOiAiIiwgIkhIX0FQUF9OQU1FIjogIiJ9fQ==)
 
+<p align="center">
+  <a href="https://business-mcp-ru.aifrontier.tech/">
+    <img src="assets/social-preview.png" alt="hh-mcp-ru: API hh.ru в ИИ-ассистенте. 133 метода, поиск метода словами, гейт безопасности перед записью" width="760">
+  </a>
+</p>
+
 Каталог собран из первоисточника (официальная спека `api.hh.ru/openapi/specification/public`) и лежит в репозитории как
 `hh_mcp/endpoints.yaml`: **133 метода**, из них 92 на чтение,
 32 на запись и 9 необратимых. Сервер исполняет ровно этот файл,
