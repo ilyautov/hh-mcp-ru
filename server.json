@@ -1,0 +1,37 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.ilyautov/hh-mcp-ru",
+  "title": "hh.ru MCP (RU) — вакансии, отклики, резюме",
+  "description": "API hh.ru для ИИ-ассистентов: вакансии, отклики и приглашения, резюме, справочники, статистика зарплат. Каталог из официальной спеки, у каждого метода класс доступа.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/ilyautov/hh-mcp-ru",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "hh-mcp-ru",
+      "version": "0.1.0",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "HH_TOKEN",
+          "description": "Токен приложения hh.ru (dev.hh.ru → Мои приложения).",
+          "isRequired": false,
+          "isSecret": true
+        },
+        {
+          "name": "HH_APP_NAME",
+          "description": "Имя приложения и контактный email для заголовка HH-User-Agent: без него hh отклоняет запросы.",
+          "isRequired": false,
+          "isSecret": false
+        }
+      ]
+    }
+  ]
+}
