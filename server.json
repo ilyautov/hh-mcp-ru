@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.ilyautov/hh-mcp-ru",
   "title": "hh.ru MCP (RU) — вакансии, отклики, резюме",
-  "description": "API hh.ru для ИИ-ассистентов: вакансии, отклики и приглашения, резюме, справочники, статистика зарплат. Каталог из официальной спеки, у каждого метода класс доступа.",
-  "version": "0.1.0",
+  "description": "API hh.ru в ИИ-ассистенте: вакансии, отклики, резюме, статистика зарплат",
+  "version": "0.1.1",
   "repository": {
     "url": "https://github.com/ilyautov/hh-mcp-ru",
     "source": "github"
@@ -13,7 +13,7 @@
       "registryType": "pypi",
       "registryBaseUrl": "https://pypi.org",
       "identifier": "hh-mcp-ru",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "runtimeHint": "uvx",
       "transport": {
         "type": "stdio"
