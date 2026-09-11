@@ -45,7 +45,9 @@ HH_CONFIG = ServiceConfig(
 )
 
 mcp = FastMCP("hh-mcp-ru")
-entities = EntityIndex.load()
+# Сущности сервиса лежат рядом с каталогом: у ядра своего файла нет и быть
+# не может, разделы у ЭДО и у вакансий разные.
+entities = EntityIndex.load(Path(__file__).with_name("entities.yaml"))
 catalog = Catalog.from_yaml(CATALOG_PATH, entities=entities)
 client = MarketplaceClient(HH_CONFIG)
 

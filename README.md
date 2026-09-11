@@ -86,11 +86,25 @@ dev.hh.ru → Мои приложения → создать приложени�
 
 ## Как это выглядит в чате
 
+Вы: поиск вакансий
+
 ```
-hh_search_methods("...")   поиск метода словами, а не по имени эндпоинта
-hh_describe_method(...)    параметры, пагинация, класс доступа
-hh_call_method(...)        вызов; запись спрашивает подтверждение
+hh_search_methods("поиск вакансий")
+  hh_get_vacancies                     GET  /vacancies                                 чтение
+  hh_get_vacancies_related_to_vacancy  GET  /vacancies/{vacancy_id}/related_vacancies  чтение
+  hh_get_vacancies_similar_to_vacancy  GET  /vacancies/{vacancy_id}/similar_vacancies  чтение
+
+hh_describe_method("hh_get_vacancies")
+  Поиск по вакансиям
+  GET api.hh.ru/vacancies
+  параметры: page, per_page, text, search_field, experience, employment, schedule, area и ещё 36
+  класс доступа: чтение
+
+hh_call_method("hh_get_vacancies", {"page": "...", "per_page": "..."})
 ```
+
+Три инструмента вместо 133 функций: агент ищет метод словами,
+читает его карточку и вызывает. Запись и необратимое спрашивают подтверждение.
 
 Что обычно просят:
 

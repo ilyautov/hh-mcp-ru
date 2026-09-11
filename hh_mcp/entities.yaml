@@ -1,0 +1,137 @@
+# Сгенерировано split.py из sections.json. Руками не править.
+entities:
+  - key: employers
+    title_ru: Работодатель и менеджеры
+    title_en: Employers
+    match: [employers]
+    synonyms: [работодатель, менеджеры, employers]
+  - key: vacancies
+    title_ru: Вакансии
+    title_en: Vacancies
+    match: [vacancies]
+    synonyms: [вакансии, вакансия, работа, vacancies]
+  - key: common
+    title_ru: Общие справочники
+    title_en: Common
+    match: [common]
+    synonyms: [общие, справочники, common]
+  - key: suggests
+    title_ru: Подсказки
+    title_en: Suggests
+    match: [suggests]
+    synonyms: [подсказки, автодополнение, suggests]
+  - key: negotiations
+    title_ru: Отклики и приглашения
+    title_en: Negotiations
+    match: [negotiations]
+    synonyms: [отклики, приглашения, переписка, negotiations]
+  - key: saved_searches
+    title_ru: Сохранённые поиски
+    title_en: Saved Searches
+    match: [saved_searches]
+    synonyms: [сохранённые, поиски, saved_searches]
+  - key: salary_statistics
+    title_ru: Статистика зарплат
+    title_en: Salary Statistics
+    match: [salary_statistics]
+    synonyms: [статистика, зарплат, зарплата, оклад, salary_statistics]
+  - key: webhook
+    title_ru: Вебхуки
+    title_en: Webhook
+    match: [webhook]
+    synonyms: [вебхуки, webhook]
+  - key: applicant_comments
+    title_ru: Комментарии к соискателю
+    title_en: Applicant Comments
+    match: [applicant_comments]
+    synonyms: [комментарии, соискателю, applicant_comments]
+  - key: resumes
+    title_ru: Резюме
+    title_en: Resumes
+    match: [resumes]
+    synonyms: [резюме, кандидаты, resumes]
+  - key: areas
+    title_ru: Регионы
+    title_en: Areas
+    match: [areas]
+    synonyms: [регионы, areas]
+  - key: calls
+    title_ru: Звонки
+    title_en: Calls
+    match: [calls]
+    synonyms: [звонки, calls]
+  - key: token
+    title_ru: Токены
+    title_en: Token
+    match: [token]
+    synonyms: [токены, token]
+  - key: metro
+    title_ru: Метро
+    title_en: Metro
+    match: [metro]
+    synonyms: [метро, metro]
+  - key: locales
+    title_ru: Локали
+    title_en: Locales
+    match: [locales]
+    synonyms: [локали, locales]
+  - key: educational_institutions
+    title_ru: Учебные заведения
+    title_en: Educational Institutions
+    match: [educational_institutions]
+    synonyms: [учебные, заведения, educational_institutions]
+  - key: me
+    title_ru: Текущий пользователь
+    title_en: Me
+    match: [me]
+    synonyms: [текущий, пользователь, me]
+  - key: dictionaries
+    title_ru: Словари
+    title_en: Dictionaries
+    match: [dictionaries]
+    synonyms: [словари, dictionaries]
+  - key: industries
+    title_ru: Отрасли
+    title_en: Industries
+    match: [industries]
+    synonyms: [отрасли, industries]
+  - key: professional_roles
+    title_ru: Профессиональные роли
+    title_en: Professional Roles
+    match: [professional_roles]
+    synonyms: [профессиональные, роли, professional_roles]
+  - key: languages
+    title_ru: Языки
+    title_en: Languages
+    match: [languages]
+    synonyms: [языки, languages]
+  - key: skills
+    title_ru: Навыки
+    title_en: Skills
+    match: [skills]
+    synonyms: [навыки, skills]
+  - key: clickme
+    title_ru: Clickme
+    title_en: Clickme
+    match: [clickme]
+    synonyms: [clickme]
+  - key: districts
+    title_ru: Районы
+    title_en: Districts
+    match: [districts]
+    synonyms: [районы, districts]
+  - key: message_templates
+    title_ru: Шаблоны сообщений
+    title_en: Message Templates
+    match: [message_templates]
+    synonyms: [шаблоны, сообщений, message_templates]
+  - key: manager_accounts
+    title_ru: Аккаунты менеджеров
+    title_en: Manager Accounts
+    match: [manager_accounts]
+    synonyms: [аккаунты, менеджеров, manager_accounts]
+  - key: vacancy_conditions
+    title_ru: Условия публикации вакансий
+    title_en: Vacancy Conditions
+    match: [vacancy_conditions]
+    synonyms: [условия, публикации, вакансий, vacancy_conditions]
