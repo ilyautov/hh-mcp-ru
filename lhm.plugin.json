@@ -1,7 +1,7 @@
 {
   "identifier": "ilyautov-hh-mcp-ru",
   "name": "hh.ru MCP (RU)",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "hh.ru, the dominant job board in Russia and the CIS, in your AI assistant: vacancies, applications and invitations, resumes, reference books, salary statistics. 133 methods live in a YAML catalog generated from the official OpenAPI spec; the agent searches the catalog in plain language and calls a method through three generic tools instead of 133 functions. Every method carries an access class: reads run immediately, writes and irreversible calls require confirmation. Install with uvx, keys stay on the user's machine.",
   "author": "Ilya Utov",
   "authorUrl": "https://github.com/ilyautov",
