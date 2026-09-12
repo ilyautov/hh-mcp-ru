@@ -1,6 +1,6 @@
 [project]
 name = "hh-mcp-ru"
-version = "0.2.2"
+version = "0.2.3"
 description = "API hh.ru для ИИ-ассистентов: вакансии, отклики и приглашения, резюме, справочники, статистика зарплат"
 keywords = ["mcp", "model-context-protocol", "hh", "hh.ru", "headhunter", "вакансии", "recruiting", "hr", "russia", "claude"]
 readme = "README.md"
