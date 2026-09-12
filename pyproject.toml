@@ -1,6 +1,6 @@
 [project]
 name = "hh-mcp-ru"
-version = "0.2.1"
+version = "0.2.2"
 description = "API hh.ru для ИИ-ассистентов: вакансии, отклики и приглашения, резюме, справочники, статистика зарплат"
 keywords = ["mcp", "model-context-protocol", "hh", "hh.ru", "headhunter", "вакансии", "recruiting", "hr", "russia", "claude"]
 readme = "README.md"
@@ -13,6 +13,8 @@ dependencies = [
 ]
 
 [project.urls]
+Homepage = "https://business-mcp-ru.aifrontier.tech/"
+Documentation = "https://business-mcp-ru.aifrontier.tech/hh-api.html"
 Repository = "https://github.com/ilyautov/hh-mcp-ru"
 Issues = "https://github.com/ilyautov/hh-mcp-ru/issues"
 Changelog = "https://github.com/ilyautov/hh-mcp-ru/blob/main/CHANGELOG.md"
