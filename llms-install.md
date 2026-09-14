@@ -52,7 +52,8 @@ uvx hh-mcp-ru doctor
 показывает. Установка удалась, если в выводе есть строка с числом методов.
 
 После перезапуска клиента у агента появляются инструменты `hh_search_methods`,
-`hh_describe_method`, `hh_call_method`, `hh_map` и кабинеты. Начинать
+`hh_describe_method`, `hh_call_method` (чтение),
+`hh_write_method`, `hh_delete_method`, `hh_map` и кабинеты. Начинать
 стоит с `hh_map`: он показывает разделы каталога и не требует ключей.
 
 ## Что может пойти не так
