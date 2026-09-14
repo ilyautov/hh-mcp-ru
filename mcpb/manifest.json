@@ -1,0 +1,71 @@
+{
+  "manifest_version": "0.3",
+  "name": "hh-mcp-ru",
+  "display_name": "hh.ru: вакансии, отклики и резюме (hh-mcp-ru)",
+  "version": "0.2.3",
+  "description": "API hh.ru прямо в Claude: вакансии, отклики и приглашения, резюме, справочники, статистика зарплат. Спрашивайте по-русски.",
+  "long_description": "Подключает ассистента к API hh.ru по вашему токену приложения. Каталог из 133 методов собран из официальной спеки api.hh.ru/openapi/specification/public, поэтому инструменты не расходятся с тем, что сервис реально умеет. Чтение идёт сразу, запись и необратимое действие требуют подтверждения. Ключ хранится локально и в чат не попадает.",
+  "author": {
+    "name": "Ilya Utov",
+    "url": "https://github.com/ilyautov"
+  },
+  "homepage": "https://business-mcp-ru.aifrontier.tech/hh-api.html",
+  "documentation": "https://github.com/ilyautov/hh-mcp-ru/blob/main/README.md",
+  "support": "https://github.com/ilyautov/hh-mcp-ru/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ilyautov/hh-mcp-ru"
+  },
+  "license": "MIT",
+  "privacy_policies": [
+    "https://business-mcp-ru.aifrontier.tech/privacy.html"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "hh",
+    "hh.ru",
+    "headhunter",
+    "вакансии",
+    "recruiting",
+    "hr",
+    "russia",
+    "claude"
+  ],
+  "server": {
+    "type": "python",
+    "entry_point": "server/serve.py",
+    "mcp_config": {
+      "command": "python",
+      "args": [
+        "${__dirname}/server/serve.py",
+        "hh"
+      ],
+      "env": {
+        "HH_TOKEN": "${user_config.hh_token}",
+        "HH_APP_NAME": "${user_config.hh_app_name}"
+      }
+    }
+  },
+  "user_config": {
+    "hh_token": {
+      "type": "string",
+      "title": "Токен приложения hh.ru",
+      "description": "dev.hh.ru → Мои приложения → создать приложение → access token.",
+      "sensitive": true,
+      "required": true
+    },
+    "hh_app_name": {
+      "type": "string",
+      "title": "Имя приложения и контакт",
+      "description": "hh отклоняет запросы без внятного User-Agent. Укажите имя приложения и контактный email, например «my-app (me@example.com)».",
+      "sensitive": false,
+      "required": true
+    }
+  },
+  "compatibility": {
+    "runtimes": {
+      "python": ">=3.10"
+    }
+  }
+}
