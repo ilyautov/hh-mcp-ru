@@ -3,7 +3,7 @@
   "name": "io.github.ilyautov/hh-mcp-ru",
   "title": "hh.ru MCP (RU) — вакансии, отклики, резюме",
   "description": "API hh.ru в ИИ-ассистенте: вакансии, отклики, резюме, статистика зарплат",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "websiteUrl": "https://business-mcp-ru.aifrontier.tech/hh-api.html",
   "repository": {
     "url": "https://github.com/ilyautov/hh-mcp-ru",
@@ -14,7 +14,7 @@
       "registryType": "pypi",
       "registryBaseUrl": "https://pypi.org",
       "identifier": "hh-mcp-ru",
-      "version": "0.2.3",
+      "version": "0.3.0",
       "runtimeHint": "uvx",
       "transport": {
         "type": "stdio"
